@@ -1,0 +1,38 @@
+[
+    {
+        "precio": 15,
+        "id": 1,
+        "title": "Starman t-shirt",
+        "imagenItem": "img/shirt_1.webp"
+    },
+    {
+        "precio": 15,
+        "id": 2,
+        "title": "Occupy mars t-shirt",
+        "imagenItem": "img/shirt_5.webp"
+    },
+    {
+        "precio": 50,
+        "id": 3,
+        "title": "Starship pullover hoodie",
+        "imagenItem": "img/hoodie_4.webp"
+    },
+    {
+        "precio": 50,
+        "id": 4,
+        "title": "F9 zipper hoodie",
+        "imagenItem": "img/hoodie_5.webp"
+    },
+    {
+        "precio": 120,
+        "id": 5,
+        "title": "Men's bomber jacket",
+        "imagenItem": "img/bomber_1.webp"
+    },
+    {
+        "precio": 120,
+        "id": 6,
+        "title": "Women's bomber jacket",
+        "imagenItem": "img/bomber_2.webp"
+    }
+]
