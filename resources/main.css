@@ -8,3 +8,25 @@ body {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
+
+.row__grid {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: .5rem;
+}
+
+.containerPrice {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.containerPrice p {
+    margin: 0;
+}
+
+.card-text {
+    font-weight: 700;
+    font-size: 1.5rem;
+}

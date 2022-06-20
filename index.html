@@ -14,7 +14,7 @@
       
         <h1 class="text-center container__h1">Shop</h1>
 
-        <div class="row" id="contenedor-productos"></div>
+        <div class="row__grid" id="contenedor-productos"></div>
 
         <div class="my-5">
           <h4>Carrito de compras</h4>
@@ -68,21 +68,20 @@
     </template>
 
     <template id="template-productos">
-        <div class="col-12 col-md-4 mb-3">
-            <div class="card">
-                <img src="" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">
-                      Item
-                  </h5>
-                  <p class="card-text">$ <span>5000</span></p>
-                  <button class="btn btn-dark">
-                      Comprar
-                  </button>
-                </div>
-              </div>
-        </div>
+      <div class="card">
+        <img src="" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">
+                Item
+            </h5>
+            <div class="containerPrice">
+              <p class="card-text">$<span>5000</span></p>
+              <button class="btn btn-dark">Comprar</button>
+            </div>
+          </div>
+      </div>
     </template>
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./resources/app.js"></script>
